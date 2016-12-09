@@ -28,6 +28,7 @@ public class Fabricante extends javax.swing.JFrame {
     
     public Fabricante() throws SQLException {
         initComponents();
+        //Vamos a hacer una prueba
         String url = "jdbc:mysql://localhost:3306/bases";
         String user = "root";
         String pass = "";
